@@ -2,19 +2,21 @@
 
 [![Build Status](https://travis-ci.org/PyNorte/pyconamazonia2017-site.svg?branch=master)](https://travis-ci.org/PyNorte/pyconamazonia2017-site)
 
-Esse é o portal oficial da Python Brasil 12, criado de maneira colaborativa.
+Esse é o portal oficial da **PyCon Amazônia 2017**, criado de maneira colaborativa.
 
 
 ## **Contribuições**
 
-Se você tem interesse de contribuir com o site faça o clone do repositório da seguinte forma:
+Se você tem interesse de contribuir com o site, faça o fork desse repositorio clicando [aqui](https://github.com/PyNorte/pyconamazonia2017-site/fork), em seguida, faça o clone do seu fork da seguinte forma:
 
 ```
-$ git clone https://github.com/PyNorte/pyconamazonia2017-site.git
+$ git clone https://github.com/seu_usuario_do_github/pyconamazonia2017-site.git
 ```
 
+Faça as modificações que achar necessário e mande o pull-request
 
-### **Executando com docker-compose, the fast-way**
+
+### **Executando com docker-compose, the fast-way (recomendado)**
 
 Se você possuir [Docker Compose](https://docs.docker.com/compose/install/) instalado em seu ambiente, este é o caminho mais rápido para o site rodar em sua máquina.
 
@@ -42,7 +44,7 @@ With apt-get:
 $ sudo apt-get install libxml2-dev libxslt1-dev python-dev nodejs npm
 $ sudo pip install virtualenvwrapper
 
-$ cd pythonbrasil12-site
+$ cd pyconamazonia2017-site
 $ npm install gulp gulp-uglify gulp-concat gulp-sass
 $ export WORKON_HOME="~/venv"
 $ . /usr/bin/virtualenvwrapper.sh
