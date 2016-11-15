@@ -1,5 +1,12 @@
 sudo: false
 language: python
+cache:
+  bundler: true
+  directories:
+  - node_modules # NPM packages
+  - $HOME/.cache/pip # python packages
+
+
 before_install:
 - openssl aes-256-cbc -K $encrypted_d44857a9a818_key -iv $encrypted_d44857a9a818_iv -in publish-key.enc -out ~/.ssh/publish-key -d
 - chmod u=rw,og= ~/.ssh/publish-key
@@ -10,9 +17,7 @@ before_install:
 
 install:
   - gem install sass
-  - cd theme
-  - npm install -g
-  - cd ..
+  - npm install gulp gulp-uglify gulp-concat gulp-sass
   - pip install --upgrade pip
   - pip install -r requirements.txt
 
