@@ -1,7 +1,0 @@
-os_packages:
-  - python-virtualenvwrapper
-  - libxslt-devel
-  - libxml2-devel
-  - rubygem-sass
-  - nodejs
-  - npm

@@ -1,9 +1,0 @@
-*.pyc
-output/
-output_docker/
-node_modules/
-.sass-cache/
-pelican-plugins
-.idea
-.idea/
-
