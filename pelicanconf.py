@@ -3,9 +3,9 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'PyConAmazônia'
-SITENAME = u'PyCon Amazônia 2016'
+SITENAME = u'PyCon Amazônia 2017'
 SITEURL = '127.0.0.1'
-SITE_DESCRIPTION = "12ª Conferência Brasileira da Comunidade Python. Cinco "
+SITE_DESCRIPTION = "PyCon Amazônia 2017"
 
 PATH = 'content'
 
