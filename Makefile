@@ -7,7 +7,7 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 DOCKEROUTPUTDIR=$(BASEDIR)/output_docker
 CONFFILE=$(BASEDIR)/pelicanconf.py
-SITEDOMAIN=cookiecutter-django-test2.xyz
+SITEDOMAIN=amazonia.python.org.br
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 GITHUB_PAGES_BRANCH=gh-pages
