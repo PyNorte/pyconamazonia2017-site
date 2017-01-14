@@ -103,13 +103,18 @@ a:hover {
   width: 100%;
   margin-left: auto;
   margin-right: auto; }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both; }
   @media (max-width: 1199px) {
     .row {
       padding: 0 25px; } }
 
 .v-align, .sponsors .sponsors-list .no-sponsor img, .sponsors .sponsors-list .no-sponsor p {
   vertical-align: middle;
-  display: table-cell; }
+  display: table-cell;
+  }
 
 .no-border {
   border: none; }
@@ -285,6 +290,7 @@ a:hover {
             display: block; } }
   .welcome .info {
     position: relative;
+    text-align: center;
     padding: 8em 0 4em 0; }
     .welcome .info h1 {
       font-size: 3.5em;
@@ -337,7 +343,10 @@ a:hover {
   .speakers .speakers-list {
     list-style: none;
     font-size: 0;
-    margin: 0 -15px; }
+    margin: 0 -15px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center; }
     .speakers .speakers-list:after {
       content: "";
       display: table;
@@ -537,6 +546,9 @@ a:hover {
   .sponsors .sponsors-list {
     list-style: none;
     font-size: 0;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
     margin: 0 -15px; }
     .sponsors .sponsors-list:after {
       content: "";
