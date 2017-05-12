@@ -648,3 +648,17 @@ a:hover {
     -webkit-transform: translateY(-50%); }
 
 /*# sourceMappingURL=main.css.map */
+
+/* content maps block scrol zoom*/
+.map-container {
+  width: 95%;
+}
+.map-container iframe{
+  width: 100%;
+  display: block;
+  pointer-events: none;
+  position: relative; /* IE needs a position other than static */
+}
+.map-container iframe.clicked{
+  pointer-events: auto;
+}
