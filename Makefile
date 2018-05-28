@@ -7,7 +7,7 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 DOCKEROUTPUTDIR=$(BASEDIR)/output_docker
 CONFFILE=$(BASEDIR)/pelicanconf.py
-SITEDOMAIN=amazonia.python.org.br
+SITEDOMAIN=pynorte.github.io/pyconamazonia2017-site
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 GITHUB_PAGES_BRANCH=gh-pages
