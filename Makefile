@@ -106,8 +106,8 @@ github: publish
 	git push origin $(GITHUB_PAGES_BRANCH)
 
 ping:
-	curl -Is http://www.google.com/webmasters/tools/ping?sitemap=http://$(SITEDOMAIN)/sitemap.xml | grep "200 OK" || echo "Erro pinging Google"
-	curl -Is http://www.bing.com/webmaster/ping.aspx?siteMap=http://$(SITEDOMAIN)/sitemap.xml | grep "200 OK" || echo "Erro pinging Bing"
+	curl -Is http://www.google.com/webmasters/tools/ping?sitemap=https://$(SITEDOMAIN)/sitemap.xml | grep "200 OK" || echo "Erro pinging Google"
+	curl -Is http://www.bing.com/webmaster/ping.aspx?siteMap=https://$(SITEDOMAIN)/sitemap.xml | grep "200 OK" || echo "Erro pinging Bing"
 
 ansible-setup:
 	ansible-playbook ansible/setup.yml -K
