@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://cookiecutter-django-test2.xyz'
+SITEURL = 'http://pynorte.github.io/pyconamazonia2017-site'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
