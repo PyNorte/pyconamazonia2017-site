@@ -4,6 +4,8 @@
 
 Esse é o portal oficial da **PyCon Amazônia 2017**, criado de maneira colaborativa.
 
+https://pynorte.github.io/pyconamazonia2017-site/
+
 
 ## **Contribuições**
 
